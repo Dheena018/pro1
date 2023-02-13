@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ipsum ut exercitationem eligendi mollitia aliquam eum repudiandae accusamus sint ad?</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+            <div id="input-fields">
+                <label id="name-label">Name
+                    <input type="text"  id="name" name="name" class="form" required placeholder="Enter your name">
+                </label><br>
+                <label id="email-label">Email
+                    <input type="email"  id="email" name="email" class="form" required placeholder="@example.com">
+                </label><br>
+                <label id="age-label">Age(optional)
+                    <input type="number"  id="number" name="number" class="form" required placeholder="Enter your Age">
+                </label><br>
+            </div>
+            <div id="dropdown-div">
+                <br>
+                <label id="dropdown-label">Which option best describes your current role?
+                    <select id="dropdown-select" class="form">
+                        <option value="0">Select Current Role</option>
+                        <option value="Student">Student</option>
+                        <option value="Full time job">Full time job</option>
+                        <option value="Full time learner">Full time learner</option>
+                        <option value="prefer not to say">prefer not to say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div id="button-area">
+                <br>
+                <label id="job-label">Would you recommend freeCodeCamp to a friend? <br>
+                    <input type="radio" id="radio" name="radio" class="radio-inline">Definitely <br>
+                    <input type="radio" id="radio" name="radio" class="radio-inline">Maybe <br>
+                    <input type="radio" id="radio" name="radio" class="radio-inline">Not sure <br>
+                </label>
+            </div>
+            <div id="dropdown-div">
+                <br>
+                <label id="dropdown-label">What is your favorite feature of freeCodeCamp?
+                    <select id="dropdown-select" class="form">
+                        <option value="0">Select an option</option>
+                        <option value="Challenges">Challenges</option>
+                        <option value="Projects">Projects</option>
+                        <option value="Community">Community</option>
+                        <option value="Open source">Open source</option>
+                    </select>
+                </label>
+            </div>
+            <div id="button-area">
+                <br>
+                <label id="job-label">
+                    What would you like to see improved? (Check all that apply) <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Front-end Projects <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Back-end Projects <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Data Visualization <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Challenges <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Open Source Community <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Gitter help rooms<br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Videos <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">City Meetups <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Wiki <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Forum <br>
+                    <input type="checkbox" id="checkbox" name="checkbox" class="check-inline">Additional Courses <br>
+                </label>
+            </div><br>
+            <div id="comment-btn">
+                <label id="btn-label">Any comments or suggestions?
+                    <input type="text" id="text" name="text" class="form"placeholder="Enter your comment here...">
+                </label>
+            </div><br>
+            <div id="btn">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

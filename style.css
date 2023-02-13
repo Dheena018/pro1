@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: #45b6eb;
+    color: #fff;
+    font-size: 1.2vw;
+}
+html{
+    font-size: 20px;
+}
+#heading{
+   max-width: 750px;
+   margin: 4rem auto;
+   padding: .6rem;
+}
+#main{
+    padding: 0% 20% 0% 20% ;
+}
+#title{
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 1.2;
+
+}
+#description{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: .2rem;
+}
+#survey-form{
+    background-color: #2222425d;
+    padding: 3rem 2.5rem;
+    border-radius: 7px;
+}
+#submit{
+    background-color: #22d87d;
+    color: #fff;
+    padding: .7rem;
+    font-size: 1.15rem;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+#submit:hover{
+    background:rgb(9, 168, 89);
+}
+.form{
+    width: 100%;
+    padding: .7rem;
+    border-radius: 6px;
+    font-size: 1.0rem;
+    border: none;
+}
+#input-fields{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+#dropdown-div{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+#button-area{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
+#comment-btn{
+    font-size: 1.2rem;
+    padding: .2rem;
+}
